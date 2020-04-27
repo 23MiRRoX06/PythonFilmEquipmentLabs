@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c3d0a29-7716-4408-9b24-d0e16ae450d4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b5GLFpqGtZIhZtIYigdZDLKgCO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\38068\PycharmProjects\FilmEquipment\test" />
+      <recent name="C:\Users\38068\PycharmProjects\FilmEquipment\main\manager" />
+      <recent name="C:\Users\38068\PycharmProjects\FilmEquipment\main\model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Doctests in FilmMakingManager">
+    <configuration name="Doctest FilmMakingManagerUtils.sort_costumes_by_production_year" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="FilmEquipment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/manager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/manager/film_making_manager_utils.py" />
+      <option name="CLASS_NAME" value="FilmMakingManagerUtils" />
+      <option name="METHOD_NAME" value="sort_costumes_by_production_year" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest FilmMakingManagerUtils.sort_costumes_by_year_of_use" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="FilmEquipment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/manager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/manager/film_making_manager_utils.py" />
+      <option name="CLASS_NAME" value="FilmMakingManagerUtils" />
+      <option name="METHOD_NAME" value="sort_costumes_by_year_of_use" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in FilmMakingManager" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="FilmEquipment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/manager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/manager/film_making_manager.py" />
+      <option name="CLASS_NAME" value="FilmMakingManager" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in film_making_manager" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="FilmEquipment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/manager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/manager/film_making_manager.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in film_making_manager_utils" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="FilmEquipment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/manager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/manager/film_making_manager_utils.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Doctests in FilmMakingManager" />
+        <item itemvalue="Python tests.Doctests in film_making_manager" />
+        <item itemvalue="Python tests.Doctests in film_making_manager_utils" />
+        <item itemvalue="Python tests.Doctest FilmMakingManagerUtils.sort_costumes_by_production_year" />
+        <item itemvalue="Python tests.Doctest FilmMakingManagerUtils.sort_costumes_by_year_of_use" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="686" y="177" key="#Unittests_in_test.py" timestamp="1588010652018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="686" y="177" key="#Unittests_in_test.py/0.0.1920.1040@0.0.1920.1040" timestamp="1588010652018" />
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1588022424315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588022424315" />
+    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1588022424314">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588022424314" />
+    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1588022424314">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588022424314" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1588022424314">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588022424314" />
+  </component>
+</project>
