@@ -1,7 +1,7 @@
 import doctest
 from typing import List
 
-from main.model.abstract_shooting_equipment import AbstractShootingEquipment
+from main.model.shooting_equipment import ShootingEquipment
 from main.model.camera import Camera
 from main.model.costume import Costume
 
@@ -9,13 +9,13 @@ from main.model.costume import Costume
 class FilmMakingManager:
 
     def __init__(self):
-        self.equipment: List[AbstractShootingEquipment] = []
+        self.equipment: List[ShootingEquipment] = []
         self.costumes: List[Costume] = []
 
-    def add_items(self, items: List[AbstractShootingEquipment]):
+    def add_items(self, items: List[ShootingEquipment]):
         self.equipment.extend(items)
 
-    def add_item(self, item: AbstractShootingEquipment):
+    def add_item(self, item: ShootingEquipment):
         self.equipment.append(item)
 
     def add_costumes(self, costumes: List[Costume]):
@@ -27,14 +27,14 @@ class FilmMakingManager:
     def find_equipment_with_warranty_period_greater_than(self, warranty_work_period_in_months: int):
         """
         Returns objects with warranty period greater than 3 months
-        >>> equipment_for_test: List[AbstractShootingEquipment] = [Costume(warranty_work_period_in_months=12), Camera(warranty_work_period_in_months=6), Camera(warranty_work_period_in_months=1)]
+        >>> equipment_for_test: List[ShootingEquipment] = [Costume(warranty_work_period_in_months=12), Camera(warranty_work_period_in_months=6), Camera(warranty_work_period_in_months=1)]
         >>> film_making_manager = FilmMakingManager()
         >>> film_making_manager.add_items(equipment_for_test)
-        >>> result_equipment: List[AbstractShootingEquipment] = film_making_manager.find_equipment_with_warranty_period_greater_than(3)
+        >>> result_equipment: List[ShootingEquipment] = film_making_manager.find_equipment_with_warranty_period_greater_than(3)
         >>> [item.warranty_work_period_in_months for item in result_equipment]
         [12, 6]
         """
-        result: List[AbstractShootingEquipment] = []
+        result: List[ShootingEquipment] = []
         for equipment in self.equipment:
             if equipment.warranty_work_period_in_months > warranty_work_period_in_months:
                 result.append(equipment)
@@ -69,3 +69,4 @@ class FilmMakingManager:
 
 if __name__ == "__main__":
     doctest.testmod()
+

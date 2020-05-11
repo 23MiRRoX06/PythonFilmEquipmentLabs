@@ -1,7 +1,7 @@
-from main.model.abstract_recording_device import AbstractRecordingDevice
+from main.model.recording_device import RecordingDevice
 
 
-class Microphone(AbstractRecordingDevice):
+class Microphone(RecordingDevice):
     def __init__(self, frequency_range_in_hz, dynamic_range_in_db, is_windproof, mount_type, is_waterproof,
                  battery_life_in_hours, record_format, production_year, warranty_work_period_in_months,
                  factory_manufacturer, country_manufacturer, model_name, material, weight_in_grams, color):

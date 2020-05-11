@@ -1,9 +1,9 @@
 from abc import ABC
 
-from main.model.abstract_shooting_equipment import AbstractShootingEquipment
+from main.model.shooting_equipment import ShootingEquipment
 
 
-class AbstractRecordingDevice(AbstractShootingEquipment, ABC):
+class RecordingDevice(ShootingEquipment):
     def __init__(self, is_waterproof, battery_life_in_hours, record_format, production_year,
                  warranty_work_period_in_months, factory_manufacturer, country_manufacturer, model_name, material,
                  weight_in_grams, color):

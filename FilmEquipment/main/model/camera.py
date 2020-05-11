@@ -1,7 +1,7 @@
-from main.model.abstract_recording_device import AbstractRecordingDevice
+from main.model.recording_device import RecordingDevice
 
 
-class Camera(AbstractRecordingDevice):
+class Camera(RecordingDevice):
     def __init__(self, video_resolution_standart="4K", video_fraps_per_second=120, video_recording_speed_in_mbps=150,
                  viewing_angle_in_degrees=55, has_lcd_monitor=True, is_waterproof=True, battery_life_in_hours=12,
                  record_format="mp4", production_year=2017, warranty_work_period_in_months=24,

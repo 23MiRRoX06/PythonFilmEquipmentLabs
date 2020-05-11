@@ -2,7 +2,7 @@ import unittest
 from typing import List
 
 from main.manager.film_making_manager import FilmMakingManager
-from main.model.abstract_shooting_equipment import AbstractShootingEquipment
+from main.model.shooting_equipment import ShootingEquipment
 from main.model.costume import Costume
 from .base_film_making_manager_test import BaseFilmMakingManagerTest
 
@@ -16,7 +16,7 @@ class FilmMakingManagerTest(BaseFilmMakingManagerTest, unittest.TestCase):
 
     def test_find_equipment_with_warranty_period_greater_than(self):
         result_equipment: List[
-            AbstractShootingEquipment] = self.film_making_manager.find_equipment_with_warranty_period_greater_than(3)
+            ShootingEquipment] = self.film_making_manager.find_equipment_with_warranty_period_greater_than(3)
         self.assertTrue(len(result_equipment) >= 1)
         for item in result_equipment:
             self.assertTrue(item.warranty_work_period_in_months > 3)

@@ -1,7 +1,6 @@
-from abc import ABC
 
 
-class AbstractShootingEquipment(ABC):
+class ShootingEquipment():
     def __init__(self, production_year, warranty_work_period_in_months, factory_manufacturer, country_manufacturer,
                  model_name, material, weight_in_grams, color):
         self.production_year = production_year
